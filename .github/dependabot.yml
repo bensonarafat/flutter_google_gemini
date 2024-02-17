@@ -1,0 +1,22 @@
+
+version: 2
+updates:
+  - package-ecosystem: "pub" # See documentation for possible values
+    directory: "/flutter_google_gemini_platform_interface" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pub" # See documentation for possible values
+    directory: "/flutter_google_gemini_ios" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pub" # See documentation for possible values
+    directory: "/flutter_google_gemini_android" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pub" # See documentation for possible values
+    directory: "/flutter_google_gemini" # Location of package manifests
+    schedule:
+      interval: "weekly"
